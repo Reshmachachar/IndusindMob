@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-06T15:48:07 IST" name="Suite" finished-at="2023-06-06T15:50:14 IST" duration-ms="127585">
+    <groups>
+    </groups>
+    <test started-at="2023-06-06T15:48:07 IST" name="Test" finished-at="2023-06-06T15:50:14 IST" duration-ms="127585">
+      <class name="TestCases.LoginTest">
+        <test-method is-config="true" signature="AppiumTest()[pri:0, instance:TestCases.LoginTest@68878f6d]" started-at="2023-06-06T15:48:07 IST" name="AppiumTest" finished-at="2023-06-06T15:49:48 IST" duration-ms="100807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppiumTest -->
+        <test-method signature="TC01CalculateEMI()[pri:0, instance:TestCases.LoginTest@68878f6d]" started-at="2023-06-06T15:49:48 IST" name="TC01CalculateEMI" finished-at="2023-06-06T15:50:14 IST" duration-ms="26667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01CalculateEMI -->
+      </class> <!-- TestCases.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
