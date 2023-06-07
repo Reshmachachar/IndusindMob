@@ -50,7 +50,7 @@ public class BrowserBaseTest2 {
 		cap.setCapability("deviceName","SM M015G");
 		cap.setCapability("browserName","Chrome");
 
-		 driver = new AndroidDriver(new URL("http://127.0.0.1:4723"),cap);
+		 driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"),cap);
 		 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		 
 		 driver.get(prop.getProperty("baseUrl"));
